@@ -24,7 +24,8 @@
        display: block;
     } 
    .postbtn{
-      width: 100px;
+      width: 130px;
+      height: 50px;
       padding: 10px;
       
       /* height:20px;   */
@@ -33,7 +34,7 @@
           top:40%; 
           left:40%;
       font-weight: 500;
-      font-size: 70%;
+      font-size: 100%;
       background: rgb(128, 47, 0);
       color: #fff;
       float: center;                   
