@@ -8,6 +8,8 @@
     <link href='..\css\bloglist.css' rel='stylesheet' type='text/css'>    
     <link href='..\css\header.css' rel='stylesheet' type='text/css'>
     <link href='..\css\font.css' rel='stylesheet' type='text/css'>
+    <link href='css\index.css' rel='stylesheet' type='text/css'>
+    <script src="js/index.js" ></script>
     <link rel="stylesheet" href="..\font-awesome-4.7.0/css/font-awesome.min.css">
     <style>
     </style>
@@ -19,6 +21,7 @@
             <!-- Insert code for Sign Up, Sign In button here. 
                  Add code for "ScriBBler" heading and the sub-heading -->
                
+                
                  <input  class="signinbutton" data-toggle="modal" data-target="#signinmodal" type="button" value="Sign In">
                  <input id="signupbutton" class="signinbutton" data-toggle="modal" data-target="#signupodal" type="button" value="Sign Up">
                  <a id="pageTitle" class="logo-title">ScriBBler</a>
@@ -48,7 +51,7 @@
               <input type="text" class="form-control"  placeholder="Enter password" required>
             </div>
             
-            <button type="submit" class="btn btn-default btn-success btn-block">Sign Up</button>
+            <button type="submit" class="btn btn-default btn-success btn-block">Sign in</button>
           </form>
               <p>Not a member? <a onclick="togglemodal()" >Sign Up</a></p>
         </div>
@@ -200,10 +203,10 @@
 
             <!-- Insert code for delete modal here -->
             <div id="deletemodal" class="modal fade" role="dialog">
-  <div class="modal-dialog">
+             <div class="modal-dialog">
 
     <!-- Modal content-->
-    <div class="modal-content">
+                <div class="modal-content">
      
       <div class="modal-body">
         <p>Are you sure you want to delete?</p>
@@ -222,5 +225,6 @@
 </body>
     <script src="..\js\bloglist.js">  </script>
     <script src="..\js\header.js"> </script>
+    <script src="js\index.js"></script>
 
 </html>

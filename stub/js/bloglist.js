@@ -2,8 +2,11 @@
 function redirecttonext(){
     window.location.href="post.html";
   }
-  function tosamepage(){
-   
-    window.location.href="bloglist.html";
-  }
+  
+  function togglemodal(){
+        
+    document.getElementById('modalclose').click();
+    document.getElementById('signupbutton').click();
+  
+  }   
   
